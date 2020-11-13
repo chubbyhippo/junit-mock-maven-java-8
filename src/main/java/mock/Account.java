@@ -4,10 +4,10 @@ public class Account {
 	private String accountId;
 	private long balance;
 
-	public Account(String accountId, long balance) {
+	public Account(String accountId, long initialBalance) {
 		super();
 		this.accountId = accountId;
-		this.balance = balance;
+		this.balance = initialBalance;
 	}
 
 	public void debit(long amount) {
